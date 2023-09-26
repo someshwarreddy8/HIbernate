@@ -29,7 +29,7 @@ public class App
     	Session session = sessionFactory.openSession();
     	Transaction transaction = session.beginTransaction();
     	
-    	Set_sites s = new Set_sites(1, "somesh", "1", "Y");
+    	Set_sites s = new Set_sites(1, "somesh", "1", "Y"); 
     	session.save(s);
     	
     	transaction.commit();
